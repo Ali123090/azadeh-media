@@ -1,1 +1,10 @@
-{"posted": {}, "fails": {}}
+{
+  "posted": {
+    "2026-10-13-001-syrup-mistakes.json": {
+      "status": "sent",
+      "at": "2026-10-13T13:38:33.857629+00:00",
+      "message_id": 5
+    }
+  },
+  "fails": {}
+}
