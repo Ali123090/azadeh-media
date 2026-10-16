@@ -34,6 +34,21 @@
       "status": "sent",
       "at": "2026-10-15T13:42:36.378066+00:00",
       "message_id": 11
+    },
+    "2026-10-16-001-cold-hot-compress.json": {
+      "status": "sent",
+      "at": "2026-10-16T11:42:36.978740+00:00",
+      "message_id": 12
+    },
+    "2026-10-16-002-burn-first-aid.json": {
+      "status": "sent",
+      "at": "2026-10-16T11:42:36.978740+00:00",
+      "message_id": 13
+    },
+    "2026-10-16-003-seasonal-allergy.json": {
+      "status": "sent",
+      "at": "2026-10-16T11:42:36.978740+00:00",
+      "message_id": 14
     }
   },
   "fails": {}
