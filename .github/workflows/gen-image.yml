@@ -1,0 +1,27 @@
+name: gen-image
+on:
+  workflow_dispatch:
+    inputs:
+      jobs:
+        description: 'JSON list of [prompt, path, aspectRatio]'
+        required: true
+permissions:
+  contents: write
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          JOBS: ${{ github.event.inputs.jobs }}
+        run: python3 scripts/gen_image.py
+      - name: Commit
+        run: |
+          git config user.name "image-bot"
+          git config user.email "image-bot@users.noreply.github.com"
+          git add -A assets
+          git commit -m "generate images" || exit 0
+          git pull --rebase
+          git push
