@@ -4,7 +4,8 @@ ID="$DRIVE_ID"; NAME="$NAME"
 mkdir -p work assets/private
 curl -sL -o work/in.bin "https://drive.usercontent.google.com/download?id=${ID}&export=download&confirm=t"
 SIZE=$(stat -c%s work/in.bin); echo "downloaded $SIZE bytes"
-if [ "$SIZE" -lt 100000 ]; then echo "DOWNLOAD_FAILED (file not shared publicly?)"; head -c 300 work/in.bin; echo "{\"error\":\"download failed\",\"size\":$SIZE}" > assets/private/$NAME.status.json; exit 0; fi
+HEAD=$(head -c 200 work/in.bin | tr -d "\0" | tr "\n" " " | cut -c1-150)
+if [ "$SIZE" -lt 100000 ] || echo "$HEAD" | grep -qi "<html\|<!doctype"; then echo "DOWNLOAD_FAILED (file not shared publicly?)"; head -c 300 work/in.bin; python3 -c "import json,sys;print(json.dumps({'error':'download failed','size':$SIZE,'head':sys.argv[1]}))" "$HEAD" > assets/private/$NAME.status.json; exit 0; fi
 sudo apt-get -qq update >/dev/null && sudo apt-get -qq install -y ffmpeg >/dev/null
 ffprobe -v error -show_entries format=duration:stream=width,height,codec_type,r_frame_rate -of json work/in.bin > work/probe.json
 pip -q install faster-whisper==1.0.3 >/dev/null
