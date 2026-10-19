@@ -23,7 +23,7 @@ for it in items:
     url = it.get("url") or it.get("shortCode")
     if not url or url in seen: continue
     seen.add(url)
-    rows.append({"owner": it.get("ownerUsername"), "url": url, "date": it.get("timestamp"),
+    rows.append({"owner": it.get("ownerUsername"), "owner_name": it.get("ownerFullName"), "url": url, "date": it.get("timestamp"),
                  "views": it.get("videoPlayCount") or it.get("videoViewCount") or 0,
                  "likes": it.get("likesCount"), "comments": it.get("commentsCount"),
                  "duration": it.get("videoDuration"), "caption": (it.get("caption") or "")[:700]})
