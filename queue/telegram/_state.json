@@ -74,6 +74,20 @@
       "status": "sent",
       "at": "2026-10-18T16:39:34.331911+00:00",
       "message_id": 19
+    },
+    "2026-10-19-001-anemia.json": {
+      "status": "skipped_late",
+      "at": "2026-10-19T13:46:44.260543+00:00"
+    },
+    "2026-10-19-002-baby-drops.json": {
+      "status": "sent",
+      "at": "2026-10-19T13:46:44.260543+00:00",
+      "message_id": 20
+    },
+    "2026-10-19-003-lingering-cough.json": {
+      "status": "sent",
+      "at": "2026-10-19T13:46:44.260543+00:00",
+      "message_id": 21
     }
   },
   "fails": {}
