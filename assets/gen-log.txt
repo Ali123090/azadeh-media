@@ -13,3 +13,83 @@ assets/photos/2026-10-18/test-tea.png: models/gemini-3-pro-image -> HTTP 429: Yo
 assets/photos/2026-10-18/test-tea.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.
 assets/photos/2026-10-18/test-tea.png: FAILED
+=== run 2026-10-19T05:39:37.775220Z ===
+image models: models/gemini-2.5-flash-image, models/gemini-3-pro-image-preview, models/gemini-3-pro-image, models/gemini-3.1-flash-image-preview, models/gemini-3.1-flash-image, models/gemini-3.1-flash-lite-image
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: models/gemini-2.5-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: models/gemini-3.1-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: models/gemini-3.1-flash-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: models/gemini-3.1-flash-lite-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: models/gemini-3-pro-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/1-fridge-temp.png: FAILED
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: models/gemini-2.5-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: models/gemini-3.1-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: models/gemini-3.1-flash-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: models/gemini-3.1-flash-lite-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: models/gemini-3-pro-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/2-thermometer.png: FAILED
+assets/tmp/markazdaru/2026-10-19/3-faq.png: models/gemini-2.5-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/3-faq.png: models/gemini-3.1-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/3-faq.png: models/gemini-3.1-flash-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/3-faq.png: models/gemini-3.1-flash-lite-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/3-faq.png: models/gemini-3-pro-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/3-faq.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/markazdaru/2026-10-19/3-faq.png: FAILED
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: models/gemini-2.5-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: models/gemini-3.1-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: models/gemini-3.1-flash-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: models/gemini-3.1-flash-lite-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: models/gemini-3-pro-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/1-warmup.png: FAILED
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: models/gemini-2.5-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: models/gemini-3.1-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: models/gemini-3.1-flash-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: models/gemini-3.1-flash-lite-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: models/gemini-3-pro-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/2-overtraining.png: FAILED
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: models/gemini-2.5-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: models/gemini-3.1-flash-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: models/gemini-3.1-flash-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: models/gemini-3.1-flash-lite-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: models/gemini-3-pro-image -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: models/gemini-3-pro-image-preview -> HTTP 429: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.
+assets/tmp/pharmafit/2026-10-19/3-creatine-quiz.png: FAILED
