@@ -23,7 +23,8 @@ PY
 echo "$PUBKEY" | base64 -d > work/pub.pem
 openssl rand -hex 32 > work/key.txt
 tar -C work -cf work/bundle.tar in.bin transcript.json probe.json
-openssl enc -aes-256-cbc -pbkdf2 -salt -in work/bundle.tar -out assets/private/$NAME.enc -pass file:work/key.txt
+openssl enc -aes-256-cbc -pbkdf2 -salt -in work/bundle.tar -out work/$NAME.enc -pass file:work/key.txt
+split -b 80m -d -a 2 work/$NAME.enc assets/private/$NAME.enc.part
 openssl pkeyutl -encrypt -pubin -inkey work/pub.pem -in work/key.txt -out assets/private/$NAME.key.enc
 echo "{\"ok\":true,\"size\":$SIZE}" > assets/private/$NAME.status.json
 ls -la assets/private
