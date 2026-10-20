@@ -88,6 +88,11 @@
       "status": "sent",
       "at": "2026-10-19T13:46:44.260543+00:00",
       "message_id": 21
+    },
+    "2026-10-20-001-polypharmacy.json": {
+      "status": "sent",
+      "at": "2026-10-20T06:55:45.017492+00:00",
+      "message_id": 22
     }
   },
   "fails": {}
