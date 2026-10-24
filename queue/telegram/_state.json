@@ -103,6 +103,16 @@
       "status": "sent",
       "at": "2026-10-20T17:26:04.609186+00:00",
       "message_id": 24
+    },
+    "2026-10-24-001-fasting-test.json": {
+      "status": "sent",
+      "at": "2026-10-24T09:40:39.079995+00:00",
+      "message_id": 30
+    },
+    "2026-10-24-002-drug-leaflet.json": {
+      "status": "sent",
+      "at": "2026-10-24T09:40:39.079995+00:00",
+      "message_id": 31
     }
   },
   "fails": {}
