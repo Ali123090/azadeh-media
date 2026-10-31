@@ -180,6 +180,31 @@
       "status": "sent",
       "at": "2026-10-31T09:47:26.302726+00:00",
       "message_id": 43
+    },
+    "2026-10-31-002-syrup-measure.json": {
+      "status": "sent",
+      "at": "2026-10-31T14:55:26.502132+00:00",
+      "message_id": 44
+    },
+    "2026-10-31-003-car-heat.json": {
+      "status": "sent",
+      "at": "2026-10-31T14:55:26.502132+00:00",
+      "message_id": 45
+    },
+    "2026-10-31-101-fever-thermometer.json": {
+      "status": "sent",
+      "at": "2026-10-31T14:55:26.502132+00:00",
+      "message_id": 46
+    },
+    "2026-10-31-102-leaflet-elderly.json": {
+      "status": "sent",
+      "at": "2026-10-31T14:55:26.502132+00:00",
+      "message_id": 47
+    },
+    "2026-10-31-103-expired-meds.json": {
+      "status": "sent",
+      "at": "2026-10-31T14:55:26.502132+00:00",
+      "message_id": 48
     }
   },
   "fails": {}
