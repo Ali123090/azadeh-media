@@ -240,7 +240,17 @@
       "status": "sent",
       "at": "2026-11-02T09:02:34.659673+00:00",
       "message_id": 55
+    },
+    "2026-11-02-001-probiotic-antibiotic.json": {
+      "status": "skipped_late",
+      "at": "2026-11-02T19:27:23.216152+00:00"
+    },
+    "2026-11-02-002-melatonin-caution.json": {
+      "status": "skipped_late",
+      "at": "2026-11-02T19:27:23.216152+00:00"
     }
   },
-  "fails": {}
+  "fails": {
+    "2026-11-02-003-generic-vs-brand.json": 1
+  }
 }
