@@ -262,6 +262,10 @@
       "status": "sent",
       "at": "2026-11-03T08:35:44.196647+00:00",
       "message_id": 57
+    },
+    "2026-11-03-003-cough-etiquette.json": {
+      "status": "skipped_late",
+      "at": "2026-11-03T16:33:32.803249+00:00"
     }
   },
   "fails": {
