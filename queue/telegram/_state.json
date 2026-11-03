@@ -252,6 +252,11 @@
     "2026-11-02-003-generic-vs-brand.json": {
       "status": "skipped_late",
       "at": "2026-11-03T01:43:14.208356+00:00"
+    },
+    "2026-11-03-001-handwashing.json": {
+      "status": "sent",
+      "at": "2026-11-03T07:06:25.665019+00:00",
+      "message_id": 56
     }
   },
   "fails": {
