@@ -1,0 +1,15 @@
+{
+  "table": "site_settings",
+  "exported_at": "2026-11-04T10:20:04.082Z",
+  "rows": [
+    {
+      "key": "SITE_MARKAZ_URL",
+      "value": "https://markazdaroo.com/",
+      "created_at": "2026-11-04T07:25:00.000Z",
+      "updated_at": "2026-11-04T07:25:00.000Z",
+      "id": 1,
+      "createdAt": "2026-11-04T07:22:58.162Z",
+      "updatedAt": "2026-11-04T07:22:58.162Z"
+    }
+  ]
+}
